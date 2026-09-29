@@ -204,7 +204,9 @@ function VoiceNotice() {
   if (ok) return null
   return (
     <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
-      🔇 이 기기에서 중국어 음성을 찾지 못했어요. 발음이 안 나오면 기기 설정에서 중국어(중국 본토) 음성(TTS)을 설치하거나 Chrome, Edge, Safari 같은 다른 브라우저를 써 보세요.
+      🔈 이 기기에 중국어 음성이 없어서 <b>온라인 음성</b>으로 발음을 들려줘요 (인터넷 연결 필요). 오프라인에서도 들으려면 기기에 중국어 음성을 설치하세요.
+      <br />
+      Windows: 설정 → 시간 및 언어 → 음성 → 음성 추가 → "중국어(간체, 중국)" · Android: 설정 → 텍스트 음성 변환 → 중국어 음성 데이터 설치
     </div>
   )
 }
